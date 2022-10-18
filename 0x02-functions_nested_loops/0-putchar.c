@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i;
-	char c[] = "_printchar";
+	char c[9] = "_printchar";
 
 	for (i = 0; i < 8; i++)
 	{
