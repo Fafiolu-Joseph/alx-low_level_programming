@@ -6,7 +6,6 @@
  */
 void print_times_table(int n)
 {
-
 	int a = 0, rval, b;
 
 	if (n < 0 || n > 15)
@@ -18,9 +17,7 @@ void print_times_table(int n)
 		{
 			rval = a * b;
 			if (b == 0)
-			{
 				_putchar('0' + rval);
-			}
 			else if (rval < 10)
 			{
 				_putchar(' ');
