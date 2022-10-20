@@ -8,7 +8,7 @@ int _isupper(int c)
 {
 	int rval;
 
-	if (c == 'A' && c <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
 		rval = 1;
 	}
