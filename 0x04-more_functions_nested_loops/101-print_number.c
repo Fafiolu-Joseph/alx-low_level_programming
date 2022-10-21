@@ -1,7 +1,5 @@
 #include "main.h"
 
-int _putchar(char c);
-
 /**
  * print_number - print numbers
  * @n: numbers to be printed
@@ -17,7 +15,7 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar('-');
-		a = -a;
+		a = -n;
 	}
 
 	if ((a / 10) > 0)
