@@ -13,16 +13,14 @@ int _putchar(char c);
 
 void print_number(int n)
 {
-	unsigned int a = 0;
+	unsigned int a;
 
+
+	a = n;
 	if (n < 0)
 	{
-		a = -n;
 		_putchar('-');
-	}
-	else
-	{
-		a = n;
+		a = -n;
 	}
 
 	if (a / 10)
